@@ -1,6 +1,6 @@
 language: java
 sudo: false
 script:
--"mvn -f demo/pom.xml clean install"
+- "mvn -f demo/pom.xml clean install"
 jdk:
--oraclejdk8
+- oraclejdk8
